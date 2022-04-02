@@ -1,0 +1,26 @@
+name: KrazyCommandClipboard
+author: KrazyManJ
+main: me.KrazyManJ.KrazyCommandClipboard.Main
+version: 1.0.0
+api-version: 1.17
+commands:
+  krazycommandclipboard:
+    aliases: [kccb]
+    permission: krazycommandclipboard.command
+permissions:
+  krazycommandclipboard.save:
+    default: op
+    description: Permission for saving clipboard
+  krazycommandclipboard.show.others:
+    default: op
+    description: Permission to show other players Clipboards
+  krazycommandclipboard.clear.clipboard:
+    default: op
+  krazycommandclipboard.clear.clipboard.others:
+    default: op
+  krazycommandclipboard.reload:
+    default: op
+  krazycommandclipboard.clear.command:
+    default: op
+  krazycommandclipboard.clear.command.others:
+    default: op

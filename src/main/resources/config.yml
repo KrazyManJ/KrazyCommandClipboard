@@ -1,0 +1,16 @@
+# Limit of size of command clipboard, when this limit is exceeded, plugin will automatically remove oldest one
+# If there is more commands in clipboard than limit is (only happens when you add manualy commands to it) then plugin removes extra commands
+command limit: 10
+# Blacklisting commands from certain plugins, for plugin name use name from "/plugins" command
+# Some of them can have star symbol after it, but thats just api warning from spigot
+blacklisted plugins:
+  - KrazyCommandClipboard
+
+# There you can blacklist certain commands what you want
+blacklisted commands:
+  - /home
+  - /help
+
+execute button: true
+copy button: true
+send to chat button: true
